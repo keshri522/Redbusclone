@@ -37,7 +37,7 @@ It is a MERN Stack Web Application which is used to book Bus Tickets from any lo
 -This is just a simple clone of Red bus application some of Features is coming soon
 
 ## Deployment Link
-- https://keshri522.github.io/Chat-App-Mern/#/
+- coming soon
 
 ## Backend Deployment on render
 - https://cloneredbus.onrender.com
