@@ -25,8 +25,8 @@ function App() {
             path="/"
             element={
               <HomePage
-                authentication={authentication}
-                setAuthentication={setAuthentication}
+              // authentication={authentication}
+              // setAuthentication={setAuthentication}
               />
             }
           />
