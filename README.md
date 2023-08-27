@@ -3,46 +3,84 @@
 It is a MERN Stack Web Application which is used to book Bus Tickets from any location to any location at a given date. In this application you can choose the Bus of your choice, you can choose the seats of your choice from the available seats. It also shows the booked seats and the available seats data. You can also filter the seats according to the prices and select the seats from your estimated budget. After selecting the seats you just have to click on Proceed to Book and fill the user Details and click on Proceed to Pay. Your seats will be booked instantly and you will be redirected to the Tickets page.  
 
 
-## Technologies that are used in this project.
-  <ul>
-    <li>React</li> 
-    <li>Redux</li> 
-    <li>React-Router-Dom</li> 
-    <li>Tailwind-CSS</li> 
-    <li>Moment</li> 
-    <li>Mongoose</li> 
-    <li>Express</li>  
-    <li>MongoDB</li> 
-    <li>Nodemon</li>  
-    <li>Cors</li>   
-  </ul>
-
-
-## Features
-
 - Shows which seats are already booked and which seats are available
 - Book the Seats from anywhere to anywhere of your prefered choice
 - Fetch all the bus Data stored in the MongoDB Atlas Database to the frontend and show the specific buses
 - Saving the userDetails and ticket details into MongoDB Atlas Database
+# Chat-App-Mern
 
+
+## Features
+- Ticket Booked
+- Payment view
+- Search Buses 
+- Get all bus
+
+- 
+## What I used for Client_Side
+- React.js.
+- Redux/@toolkit.
+- Tailwinds css
+- React Toastify
+- React hooks
+- react-routing.
+- Axios 
+- Some features are coming soon
+
+## What I used for Server_Side
+- Morgon
+- Mongoose
+- node.js
+- Express.js
+- Api From Validations
+## About Project
+-This is just a simple clone of Red bus application some of Features is coming soon
+
+## Deployment Link
+- coming soon
+
+## Backend Deployment on render
+- https://cloneredbus.onrender.com
 
 ## Deployment
 
-The app has been deployed on 
-https://reserve-bus-booking.netlify.app/
+To deploy this project run
 
-and server on 
-https://reserve-bus-booking-app.vercel.app/
+```bash
+  npm run deploy
+```
 
 
-## FAQ
+## 🚀 About Me
+I'm a full stack developer...
+- Write a mail on :rkeshri522@gmail.com
 
-#### How to book a ticket ?
 
-First insert the From and To location from where to where you want to go. Then insert the date on which date you want to book the ticket. Then select the vacant seats and click on proceed to book. Then insert the user Details and click on Proceed to Pay, your tickets for those seats will be booked. 
+## Starting the App
 
-## Environment Variables
+To start,run the following comman
 
-To run this project, you will need to add the following environment variables to your .env file
+```bash
+  npm start
+```
 
-`MONGODB_DATABASE_URL`
+
+## Running Tests
+
+To run tests, run the following command
+
+```bash
+  npm run test
+```
+
+
+## Usage/Examples
+
+```javascript
+import Component from 'my-project'
+
+function App() {
+  return <Component />
+}
+```
+
