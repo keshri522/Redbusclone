@@ -1,8 +1,8 @@
 import React, { useState } from "react";
-import Seat from "./Seat";
+// import Seat from "./Seat";
 import { Link } from "react-router-dom";
 import { useDispatch } from "react-redux";
-import { setBusData } from "../state/actions/busData";
+// import { setBusData } from "../state/actions/busData";
 import { toast } from "react-toastify";
 
 const BusCard = (props) => {
@@ -66,9 +66,9 @@ const BusCard = (props) => {
   const viewSeat = () => {
     toast.error("I am Working on this coming soon");
   };
-  const handleClick = async () => {
-    await setBusData(dispatch, a);
-  };
+  // const handleClick = async () => {
+  //   await setBusData(dispatch, a);
+  // };
 
   return (
     <div className="mb-4 ">
@@ -229,7 +229,7 @@ const BusCard = (props) => {
                   <span>Upper Birth</span>
                 </div>
                 <div className="mt-3 ml-4">
-                  <div className="flex">
+                  {/* <div className="flex">
                     {props.busSeatsUpper.seatsTop.map((seat, id) => (
                       <Seat
                         key={id}
@@ -258,8 +258,8 @@ const BusCard = (props) => {
                         bookedSeats={bookedSeats}
                       />
                     ))}
-                  </div>
-                  <div className="flex mb-2 ml-40">
+                  </div> */}
+                  {/* <div className="flex mb-2 ml-40">
                     {props.busSeatsUpper.seatsLower.map((seat, id) => (
                       <Seat
                         key={id}
@@ -273,7 +273,7 @@ const BusCard = (props) => {
                         bookedSeats={bookedSeats}
                       />
                     ))}
-                  </div>
+                  </div> */}
                 </div>
               </div>
               <div className="border-2 border-gray-300 h-36 flex rounded-md">
@@ -284,7 +284,7 @@ const BusCard = (props) => {
                   <span>Lower Birth</span>
                 </div>
                 <div className="mt-3 ml-4">
-                  <div className="flex">
+                  {/* <div className="flex">
                     {props.busSeatsLower.seatsTop.map((seat, id) => (
                       <Seat
                         key={id}
@@ -298,8 +298,8 @@ const BusCard = (props) => {
                         bookedSeats={bookedSeats}
                       />
                     ))}
-                  </div>
-                  <div className="flex mb-12">
+                  </div> */}
+                  {/* <div className="flex mb-12">
                     {props.busSeatsLower.seatsMiddle.map((seat, id) => (
                       <Seat
                         key={id}
@@ -313,8 +313,8 @@ const BusCard = (props) => {
                         bookedSeats={bookedSeats}
                       />
                     ))}
-                  </div>
-                  <div className="flex mb-2 ml-40">
+                  </div> */}
+                  {/* <div className="flex mb-2 ml-40">
                     {props.busSeatsLower.seatsLower.map((seat, id) => (
                       <Seat
                         key={id}
@@ -328,7 +328,7 @@ const BusCard = (props) => {
                         bookedSeats={bookedSeats}
                       />
                     ))}
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </div>
@@ -369,7 +369,7 @@ const BusCard = (props) => {
                 </div>
                 <div>
                   <button
-                    onClick={handleClick}
+                    // onClick={handleClick}
                     className="bg-[#FF8700] text-white font-[Poppins] mt-6 py-2 px-8 w-full rounded  hover:bg-indigo-400 
     duration-500"
                   >

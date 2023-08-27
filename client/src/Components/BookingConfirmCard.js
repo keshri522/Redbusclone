@@ -1,6 +1,6 @@
 import React from "react";
 import { useSelector } from "react-redux";
-import BusInfoCard from "./BusInfoCard";
+// import BusInfoCard from "./BusInfoCard";
 
 const BookingConfirmCard = () => {
   const userDetails = useSelector((state) => state.userDetails);
@@ -39,9 +39,7 @@ const BookingConfirmCard = () => {
           ))} */}
         </div>
       </div>
-      <div className="mx-16 my-8">
-        <BusInfoCard />
-      </div>
+      <div className="mx-16 my-8">{/* <BusInfoCard /> */}</div>
     </div>
   );
 };

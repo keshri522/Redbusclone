@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
-import Card from "../Components/Card";
-import RatingCard from "../Components/RatingCard";
+
+// import RatingCard from "../Components/RatingCard";
 import Background from "../images/background.jpg";
 import Redbus from "../images/red.jpg";
 import Newbus from "../images/new.jpg";
@@ -118,21 +118,12 @@ const Home_Page = (props) => {
       <div className="font-bold text-center py-10 text-2xl">
         Travel with world's largest bus service
       </div>
-      <div className="flex items-center flex-col m-5  md:flex-row md:justify-center ">
-        {cardDetails.map((cardDetail, id) => (
-          <Card
-            key={id}
-            title={cardDetail.title}
-            description={cardDetail.description}
-            imageURL={cardDetail.imageURL}
-          />
-        ))}
-      </div>
+      <div className="flex items-center flex-col m-5  md:flex-row md:justify-center "></div>
       <div className="font-bold text-2xl py-[5vh]">
         Here's what a few of our customers <br /> have to say
       </div>
       <div className="flex items-center flex-col mt-5 mb-16 py-10 w-full md:flex-row md:justify-center bg-slate-200">
-        {ratingsDetails.map((ratingsDetail, id) => (
+        {/* {ratingsDetails.map((ratingsDetail, id) => (
           <RatingCard
             key={id}
             initial={ratingsDetail.name[0]}
@@ -140,7 +131,7 @@ const Home_Page = (props) => {
             since={ratingsDetail.year}
             description={ratingsDetail.description}
           />
-        ))}
+        ))} */}
       </div>
     </div>
   );

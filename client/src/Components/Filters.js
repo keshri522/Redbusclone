@@ -14,7 +14,7 @@ const Filters = () => {
       <div className="border-2 rounded-md">
         <div className=" py-3 px-4 text-start">
           <div className="py-2 font-bold">Departure Time</div>
-          {sessions.map((session,id) => {
+          {sessions.map((session, id) => {
             return (
               <div key={id} className="py-2">
                 <input className="mr-2 leading-tight" type="checkbox" />
@@ -26,7 +26,7 @@ const Filters = () => {
         <hr className="border-2" />
         <div className="py-3 px-4 text-start">
           <div className="py-2 font-bold">Arrival Time</div>
-          {sessions.map((session,id) => {
+          {sessions.map((session, id) => {
             return (
               <div key={id} className="py-2">
                 <input className="mr-2 leading-tight" type="checkbox" />
@@ -38,7 +38,7 @@ const Filters = () => {
         <hr className="border-2" />
         <div className="py-3 px-4 text-start">
           <div className="py-2 font-bold">Pickup Point</div>
-          {cities.map((city,id) => {
+          {cities.map((city, id) => {
             return (
               <div key={id} className="py-2">
                 <input
@@ -54,7 +54,7 @@ const Filters = () => {
         <hr className="border-2" />
         <div className="py-3 px-4 text-start">
           <div className="py-2 font-bold">Drop Point</div>
-          {cities.map((city,id) => {
+          {cities.map((city, id) => {
             return (
               <div key={id} className="py-2">
                 <input
@@ -70,7 +70,7 @@ const Filters = () => {
         <hr className="border-2" />
         <div className="py-3 px-4 text-start">
           <div className="py-2 font-bold">Bus Rating</div>
-          {busRatings.map((rating,id) => {
+          {busRatings.map((rating, id) => {
             return (
               <div key={id} className="py-2">
                 <input className="mr-2 leading-tight" type="checkbox" />
@@ -82,7 +82,7 @@ const Filters = () => {
         <hr className="border-2" />
         <div className="py-3 px-4 text-start">
           <div className="py-2 font-bold">Bus Operator</div>
-          {busOperators.map((operator,id) => {
+          {busOperators.map((operator, id) => {
             return (
               <div key={id} className="py-2">
                 <input className="mr-2 leading-tight" type="checkbox" />
